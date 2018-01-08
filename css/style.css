@@ -1,0 +1,48 @@
+body {
+	background-color: black;
+}
+
+#container {
+	background-color: lightblue;
+	width: 40%;
+	margin: 0 auto;
+	border: 2px solid black;
+
+}
+
+h1 {
+	text-align: center;
+	background-color: #4040a1;
+}
+
+input {
+	margin-left: 12em;
+	text-align: center;
+	border: 1px solid black;
+}
+
+
+
+.completed {
+	color: green;
+	text-decoration: line-through;
+	font-weight: bold;
+
+}
+
+span {
+	/*background-color: purple;*/
+	margin-right: 20px;
+	width: 0;
+	opacity: 0;
+	transition: 0.2s linear;
+	display: inline-block;
+}
+
+li:hover span {
+	 
+	width: 20px;
+	opacity: 1.0;
+}
+
+
